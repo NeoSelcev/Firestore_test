@@ -9,11 +9,11 @@ const { getFirestore, Timestamp, FieldValue, Filter } = require('firebase-admin/
 
 const collectionName = "testcollection";
 const firebaseConfig = {
-    apiKey: "AIzaSyDJS716XbT6LNQa-BAY7Lvp52ZvK0np4N0",
-    authDomain: "centered-sight-95110.firebaseapp.com",
+    apiKey: "YOUR_API_KEY",
+    authDomain: "YOUR_DOMAIN.firebaseapp.com",
     projectId: "centered-sight-95110",
     storageBucket: "centered-sight-95110.appspot.com",
-    messagingSenderId: "264387637151",
+    messagingSenderId: "XYZ",
 };
 
 const app = initializeApp(firebaseConfig);
@@ -108,3 +108,4 @@ async function updateDocument(collectionSize) {
 }
   
   
+
